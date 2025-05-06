@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moliyaviy tahlil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigatsiya -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Toshkent teleminorasi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Bosh sahifa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="financial-analysis.html">Moliyaviy tahlil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="marketing-strategy.html">Marketing strategiyasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recommendations.html">Tavsiyalar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Asosiy kontent -->
+    <main class="container my-5">
+        <h1 class="text-center mb-5">Moliyaviy tahlil</h1>
+
+        <!-- Batafsil moliyaviy ma'lumotlar -->
+        <section class="mb-5">
+            <h2 class="border-bottom pb-2 mb-4">Batafsil moliyaviy ko'rsatkichlar</h2>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="table-responsive">
+                        <table class="table table-bordered financial-table">
+                            <thead class="table-primary">
+                                <tr>
+                                    <th rowspan="2">Kursatkichlar nomi<br><small>Наименование показателя</small></th>
+                                    <th rowspan="2">Satr kodi<br><small>Код стр</small></th>
+                                    <th colspan="2">O'tgan yilning shu davrida<br><small>За соответствующий период
+                                            прошлого года</small></th>
+                                    <th colspan="2">Hisobot davrida<br><small>За отчетный период</small></th>
+                                </tr>
+                                <tr>
+                                    <th>Daromadlar<br><small>Доходы</small></th>
+                                    <th>Xarajatlar<br><small>Расходы</small></th>
+                                    <th>Daromadlar<br><small>Доходы</small></th>
+                                    <th>Xarajatlar<br><small>Расходы</small></th>
+                                </tr>
+                                <tr>
+                                    <th>1</th>
+                                    <th>2</th>
+                                    <th>3</th>
+                                    <th>4</th>
+                                    <th>5</th>
+                                    <th>6</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Mahsulot (tovar, ish va xizmat) larni sotishdan sof tushum<br><small>Чистая
+                                            выручка от реализации продукции (товаров, работ и услуг)</small></td>
+                                    <td>010</td>
+                                    <td class="highlight">50,068,817</td>
+                                    <td>x</td>
+                                    <td class="highlight">53,669,678</td>
+                                    <td>x</td>
+                                </tr>
+                                <tr>
+                                    <td>Sotilgan mahsulot (tovar, ish va xizmat) larning
+                                        tannarxi<br><small>Себестоимость реализованной продукции (товаров, работ и
+                                            услуг)</small></td>
+                                    <td>020</td>
+                                    <td>x</td>
+                                    <td class="highlight">32,675,883</td>
+                                    <td>x</td>
+                                    <td class="highlight">56,940,683</td>
+                                </tr>
+                                <tr>
+                                    <td>Mahsulot (tovar, ish va xizmat) larni sotishning yalpi foydasi (zarari) (satr
+                                        010-020)<br><small>Валовая прибыль (убыток) от реализации продукции (товаров,
+                                            работ и услуг) (стр 010-020)</small></td>
+                                    <td>030</td>
+                                    <td class="highlight">17,392,934</td>
+                                    <td class="highlight">0</td>
+                                    <td class="highlight">0</td>
+                                    <td class="highlight">3,271,005</td>
+                                </tr>
+                                <tr>
+                                    <td>Davr xarajatlari, jami (satr 050+060+070+080), shu jumladan:<br><small>Расходы
+                                            периода, всего (стр.050+060+070+080), в том числе:</small></td>
+                                    <td>040</td>
+                                    <td>x</td>
+                                    <td class="highlight">6,599,468</td>
+                                    <td>x</td>
+                                    <td class="highlight">7,874,715</td>
+                                </tr>
+                                <tr>
+                                    <td>Sotish xarajatlari<br><small>Расходы по реализации</small></td>
+                                    <td>050</td>
+                                    <td>x</td>
+                                    <td class="highlight">0</td>
+                                    <td>x</td>
+                                    <td class="highlight">0</td>
+                                </tr>
+                                <tr>
+                                    <td>Ma'muriy xarajatlar<br><small>Административные расходы</small></td>
+                                    <td>060</td>
+                                    <td>x</td>
+                                    <td class="highlight">670,186</td>
+                                    <td>x</td>
+                                    <td class="highlight">1,095,374</td>
+                                </tr>
+                                <tr>
+                                    <td>Boshqa operatsion xarajatlar<br><small>Прочие операционные расходы</small></td>
+                                    <td>070</td>
+                                    <td>x</td>
+                                    <td class="highlight">5,929,282</td>
+                                    <td>x</td>
+                                    <td class="highlight">6,779,341</td>
+                                </tr>
+                                <tr>
+                                    <td>Kelajakda soliqqa tortiladigan bazadan chiqariladigan hisobot davri
+                                        xarajatlari<br><small>Расходы отчетного периода, исключаемые из налогооблагаемой
+                                            базы в будущем</small></td>
+                                    <td>080</td>
+                                    <td>x</td>
+                                    <td></td>
+                                    <td>x</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Asosiy faoliyatning boshqa daromadlari<br><small>Прочие доходы от основной
+                                            деятельности</small></td>
+                                    <td>090</td>
+                                    <td class="highlight">722,596</td>
+                                    <td>x</td>
+                                    <td class="highlight">8,839</td>
+                                    <td>x</td>
+                                </tr>
+                                <tr>
+                                    <td>Asosiy faoliyatning foydasi (zarari) (satr 030-040+090)<br><small>Прибыль
+                                            (убыток) от основной деятельности (стр.030-040+090)</small></td>
+                                    <td>100</td>
+                                    <td class="highlight">11,516,062</td>
+                                    <td class="highlight">0</td>
+                                    <td class="highlight">0</td>
+                                    <td class="highlight">11,136,881</td>
+                                </tr>
+                                <tr>
+                                    <td>Moliyaviy faoliyatning daromadlari, jami (satr.120+130+140+150+160), shu
+                                        jumladan:<br><small>Доходы от финансовой деятельности, всего
+                                            (стр.120+130+140+150+160), в том числе:</small></td>
+                                    <td>110</td>
+                                    <td class="highlight">0</td>
+                                    <td>x</td>
+                                    <td class="highlight">0</td>
+                                    <td>x</td>
+                                </tr>
+                                <tr>
+                                    <td>Dividendlar shaklindagi daromadlar<br><small>Доходы в виде дивидендов</small>
+                                    </td>
+                                    <td>120</td>
+                                    <td></td>
+                                    <td>x</td>
+                                    <td></td>
+                                    <td>x</td>
+                                </tr>
+                                <tr>
+                                    <td>Foizlar shaklindagi daromadlar<br><small>Доходы в виде процентов</small></td>
+                                    <td>130</td>
+                                    <td></td>
+                                    <td>x</td>
+                                    <td></td>
+                                    <td>x</td>
+                                </tr>
+                                <tr>
+                                    <td>Uzoq muddatli ijara (lizing) dan daromadlar<br><small>Доходы от долгосрочной
+                                            аренды (лизинг)</small></td>
+                                    <td>140</td>
+                                    <td></td>
+                                    <td>x</td>
+                                    <td></td>
+                                    <td>x</td>
+                                </tr>
+                                <tr>
+                                    <td>Valyuta kursi farqidan daromadlar<br><small>Доходы от валютных курсовых
+                                            разниц</small></td>
+                                    <td>150</td>
+                                    <td></td>
+                                    <td>x</td>
+                                    <td></td>
+                                    <td>x</td>
+                                </tr>
+                                <tr>
+                                    <td>Moliyaviy faoliyatning boshqa daromadlari<br><small>Прочие доходы от финансовой
+                                            деятельности</small></td>
+                                    <td>160</td>
+                                    <td></td>
+                                    <td>x</td>
+                                    <td></td>
+                                    <td>x</td>
+                                </tr>
+                                <tr>
+                                    <td>Moliyaviy faoliyat bo'yicha xarajatlar (satr.180+190+200+210), shu
+                                        jumladan:<br><small>Расходы по финансовой деятельности (стр.180+190+200+210), в
+                                            том числе:</small></td>
+                                    <td>170</td>
+                                    <td>x</td>
+                                    <td class="highlight">0</td>
+                                    <td>x</td>
+                                    <td class="highlight">0</td>
+                                </tr>
+                                <tr>
+                                    <td>Foizlar shaklindagi xarajatlar<br><small>Расходы в виде процентов</small></td>
+                                    <td>180</td>
+                                    <td>x</td>
+                                    <td></td>
+                                    <td>x</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Uzoq muddatli ijara (lizing) bo'yicha foizlar shaklindagi
+                                        xarajatlar<br><small>Расходы в виде процентов по долгосрочной аренде
+                                            (лизингу)</small></td>
+                                    <td>190</td>
+                                    <td>x</td>
+                                    <td></td>
+                                    <td>x</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Valyuta kursi farqidan zararlar<br><small>Убытки от валютных курсовых
+                                            разниц</small></td>
+                                    <td>200</td>
+                                    <td>x</td>
+                                    <td></td>
+                                    <td>x</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Moliyaviy faoliyat bo'yicha boshqa xarajatlar<br><small>Прочие расходы по
+                                            финансовой деятельности</small></td>
+                                    <td>210</td>
+                                    <td>x</td>
+                                    <td></td>
+                                    <td>x</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Umumxo'jalik faoliyatining foydasi (zarari) (satr.100+110-170)<br><small>Прибыль
+                                            (убыток) от общехозяйственной деятельности (стр.100+110-170)</small></td>
+                                    <td>220</td>
+                                    <td class="highlight">11,516,062</td>
+                                    <td class="highlight">0</td>
+                                    <td class="highlight">0</td>
+                                    <td class="highlight">11,136,881</td>
+                                </tr>
+                                <tr>
+                                    <td>Favqulodagi foyda va zararlar<br><small>Чрезвычайные прибыли и убытки</small>
+                                    </td>
+                                    <td>230</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Daromad (foyda) solig'ini to'lagunga qadar foyda (zarar)
+                                        (satr.220+/-230)<br><small>Прибыль (убыток) до уплаты налога на доходы (прибыль)
+                                            (стр.220+/-230)</small></td>
+                                    <td>240</td>
+                                    <td class="highlight">11,516,062</td>
+                                    <td class="highlight">0</td>
+                                    <td class="highlight">0</td>
+                                    <td class="highlight">11,136,881</td>
+                                </tr>
+                                <tr>
+                                    <td>Daromad (foyda) solig'i<br><small>Налог на доходы (прибыль)</small></td>
+                                    <td>250</td>
+                                    <td>x</td>
+                                    <td></td>
+                                    <td>x</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Foydadan boshqa soliqlar va yig'imlar<br><small>Прочие налоги и сборы от
+                                            прибыли</small></td>
+                                    <td>260</td>
+                                    <td>x</td>
+                                    <td></td>
+                                    <td>x</td>
+                                    <td class="highlight">0</td>
+                                </tr>
+                                <tr>
+                                    <td>Hisobot davrining sof foydasi (zarari) (satr.240-250-260)<br><small>Чистая
+                                            прибыль (убыток) отчетного периода (стр.240-250-260)</small></td>
+                                    <td>270</td>
+                                    <td class="highlight">11,516,062</td>
+                                    <td class="highlight">0</td>
+                                    <td class="highlight">0</td>
+                                    <td class="highlight">11,136,881</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Moliyaviy jadval -->
+        <section class="mb-5">
+            <h2 class="border-bottom pb-2 mb-4">Moliyaviy jadval (2023-2027)</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered financial-table">
+                    <thead>
+                        <tr>
+                            <th rowspan="2">Ko'rsatkich</th>
+                            <th colspan="2">2023</th>
+                            <th colspan="2">2024</th>
+                            <th colspan="2">2025</th>
+                            <th colspan="2">2026</th>
+                            <th colspan="2">2027</th>
+                        </tr>
+                        <tr>
+                            <th>UZS <small>mlrd</small></th>
+                            <th>USD <small>mln</small></th>
+                            <th>UZS <small>mlrd</small></th>
+                            <th>USD <small>mln</small></th>
+                            <th>UZS <small>mlrd</small></th>
+                            <th>USD <small>mln</small></th>
+                            <th>UZS <small>mlrd</small></th>
+                            <th>USD <small>mln</small></th>
+                            <th>UZS <small>mlrd</small></th>
+                            <th>USD <small>mln</small></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Daromad</td>
+                            <td>145.2</td>
+                            <td>12.1</td>
+                            <td>180.0</td>
+                            <td>15.0</td>
+                            <td>216.0</td>
+                            <td>18.0</td>
+                            <td>252.0</td>
+                            <td>21.0</td>
+                            <td>288.0</td>
+                            <td>24.0</td>
+                        </tr>
+                        <tr>
+                            <td>Xarajatlar</td>
+                            <td>96.0</td>
+                            <td>8.0</td>
+                            <td>96.0</td>
+                            <td>8.0</td>
+                            <td>108.0</td>
+                            <td>9.0</td>
+                            <td>120.0</td>
+                            <td>10.0</td>
+                            <td>132.0</td>
+                            <td>11.0</td>
+                        </tr>
+                        <tr class="highlight">
+                            <td>Sof foyda</td>
+                            <td>49.2</td>
+                            <td>4.1</td>
+                            <td>84.0</td>
+                            <td>7.0</td>
+                            <td>108.0</td>
+                            <td>9.0</td>
+                            <td>132.0</td>
+                            <td>11.0</td>
+                            <td>156.0</td>
+                            <td>13.0</td>
+                        </tr>
+                        <tr>
+                            <td>Investitsiyalar</td>
+                            <td>60.0</td>
+                            <td>5.0</td>
+                            <td>36.0</td>
+                            <td>3.0</td>
+                            <td>24.0</td>
+                            <td>2.0</td>
+                            <td>12.0</td>
+                            <td>1.0</td>
+                            <td>12.0</td>
+                            <td>1.0</td>
+                        </tr>
+                        <tr>
+                            <td>ROI</td>
+                            <td colspan="2">3.4%</td>
+                            <td colspan="2">5.8%</td>
+                            <td colspan="2">7.5%</td>
+                            <td colspan="2">9.2%</td>
+                            <td colspan="2">10.8%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="text-end mt-2">
+                <small>* UZS/USD kursi: 12,000 so'm</small>
+            </div>
+        </section>
+
+        <!-- Moliyaviy tahlil -->
+        
+        <section class="mb-5">
+            <h2 class="border-bottom pb-2 mb-4">Moliyaviy ko'rsatkichlar tahlili</h2>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="analysis-box">
+                        <h3>Asosiy tendensiyalar va xulosalar</h3>
+                        <p>
+                            Yuqoridagi moliyaviy ma'lumotlar asosida quyidagi muhim tendensiyalar va xulosalarni ajratib
+                            ko'rsatish mumkin:
+                        </p>
+
+                        <div class="row mt-4">
+                            <div class="col-md-6">
+                                <div class="card mb-4 analysis-card">
+                                    <div class="card-header bg-primary text-white">
+                                        <h4 class="mb-0">Daromad o'sishi</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Toshkent teleminorasi daromadi o'tgan yilga nisbatan <strong
+                                                class="text-success">7.2%</strong> ga oshgan:</p>
+                                        <ul>
+                                            <li>O'tgan yil: 50,068,817</li>
+                                            <li>Joriy yil: 53,669,678</li>
+                                            <li>O'sish: +3,600,861 (+7.2%)</li>
+                                        </ul>
+                                        <p>Bu ijobiy ko'rsatkich bo'lsa-da, xarajatlar o'sishi daromad o'sishidan
+                                            sezilarli darajada yuqori bo'lgan.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card mb-4 analysis-card">
+                                    <div class="card-header bg-danger text-white">
+                                        <h4 class="mb-0">Tannarx keskin oshishi</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Sotilgan mahsulot va xizmatlar tannarxi <strong
+                                                class="text-danger">74.3%</strong> ga oshgan:</p>
+                                        <ul>
+                                            <li>O'tgan yil: 32,675,883</li>
+                                            <li>Joriy yil: 56,940,683</li>
+                                            <li>O'sish: +24,264,800 (+74.3%)</li>
+                                        </ul>
+                                        <p>Bu ko'rsatkich jiddiy e'tiborni talab qiladi, chunki tannarx daromaddan
+                                            tezroq o'sishi foydalilikka salbiy ta'sir ko'rsatmoqda.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card mb-4 analysis-card">
+                                    <div class="card-header bg-warning text-dark">
+                                        <h4 class="mb-0">Yalpi foyda o'zgarishi</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Minora yalpi foydadan yalpi zararga o'tgan:</p>
+                                        <ul>
+                                            <li>O'tgan yil: +17,392,934 (foyda)</li>
+                                            <li>Joriy yil: -3,271,005 (zarar)</li>
+                                            <li>O'zgarish: -20,663,939</li>
+                                        </ul>
+                                        <p>Bu o'zgarish asosan tannarxning keskin oshishi bilan bog'liq. Yalpi foyda
+                                            ko'rsatkichi biznesning asosiy faoliyati qanchalik samarali ekanligini
+                                            ko'rsatadi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card mb-4 analysis-card">
+                                    <div class="card-header bg-info text-white">
+                                        <h4 class="mb-0">Ma'muriy xarajatlar</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Ma'muriy xarajatlar <strong>63.4%</strong> ga oshgan:</p>
+                                        <ul>
+                                            <li>O'tgan yil: 670,186</li>
+                                            <li>Joriy yil: 1,095,374</li>
+                                            <li>O'sish: +425,188 (+63.4%)</li>
+                                        </ul>
+                                        <p>Ma'muriy xarajatlarning bunday sezilarli o'sishi tashkiliy tuzilmani qayta
+                                            ko'rib chiqish zarurligini ko'rsatadi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card mb-4 analysis-card">
+                                    <div class="card-header bg-secondary text-white">
+                                        <h4 class="mb-0">Sof foyda dinamikasi</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Hisobot davrida sof foyda ko'rsatkichi keskin o'zgargan:</p>
+                                        <ul>
+                                            <li>O'tgan yil: +11,516,062 (foyda)</li>
+                                            <li>Joriy yil: -11,136,881 (zarar)</li>
+                                            <li>O'zgarish: -22,652,943</li>
+                                        </ul>
+                                        <p>
+                                            Sof foydaning bunday keskin pasayishi bir nechta omillar bilan bog'liq:
+                                        </p>
+                                        <ol>
+                                            <li>Tannarxning keskin oshishi (74.3%)</li>
+                                            <li>Ma'muriy xarajatlarning sezilarli o'sishi (63.4%)</li>
+                                            <li>Boshqa operatsion xarajatlarning oshishi (14.3%)</li>
+                                            <li>Asosiy faoliyatdan boshqa daromadlarning kamayishi (722,596 dan 8,839
+                                                ga)</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3 class="mt-4">Tavsiyalar va chora-tadbirlar</h3>
+                        <div class="recommendations-box">
+                            <ol>
+                                <li>
+                                    <strong>Tannarx tahlili va optimizatsiyasi:</strong> Tannarxning keskin oshishiga
+                                    sabab bo'lgan omillarni chuqur tahlil qilish va xarajatlarni kamaytirish
+                                    imkoniyatlarini aniqlash zarur.
+                                </li>
+                                <li>
+                                    <strong>Narx siyosatini qayta ko'rib chiqish:</strong> Tannarx oshishini qoplash
+                                    uchun xizmatlar narxini qayta ko'rib chiqish va bozor talablarini hisobga olgan
+                                    holda muvozanatli narx siyosatini ishlab chiqish.
+                                </li>
+                                <li>
+                                    <strong>Ma'muriy xarajatlarni optimizatsiya qilish:</strong> Ma'muriy xarajatlarni
+                                    kamaytirish uchun tashkiliy tuzilmani qayta ko'rib chiqish va samarasiz xarajatlarni
+                                    qisqartirish.
+                                </li>
+                                <li>
+                                    <strong>Qo'shimcha daromad manbalarini rivojlantirish:</strong> Asosiy faoliyatdan
+                                    tashqari daromad manbalarini ko'paytirish va diversifikatsiya qilish.
+                                </li>
+                                <li>
+                                    <strong>Operatsion samaradorlikni oshirish:</strong> Biznes jarayonlarini
+                                    optimizatsiya qilish va resurslardan samarali foydalanish orqali operatsion
+                                    xarajatlarni kamaytirish.
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Daromad manbaalari -->
+        <section class="mb-5">
+            <h2 class="border-bottom pb-2 mb-4">Daromad manbalari</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>
+                        Toshkent teleminorasi turli xil manbalardan daromad oladi. Asosiy daromad manbalari
+                        quyidagilardan iborat:
+                    </p>
+                    <ul>
+                        <li>Chipta sotish (tashrif buyuruvchilar uchun kirish to'lovi)</li>
+                        <li>Sovg'a do'konlari</li>
+                        <li>Kafe va restoran xizmatlari</li>
+                        <li>Maxsus tadbirlar va bayramlar</li>
+                        <li>Suvenirlar sotish</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <div class="chart-container">
+                        <h4 class="text-center mb-3">Daromad manbalari taqsimoti</h4>
+                        <div class="pie-chart">
+                            <div class="pie-segment segment1" title="Chipta sotish: 45%"></div>
+                            <div class="pie-segment segment2" title="Sovg'a do'konlari: 20%"></div>
+                            <div class="pie-segment segment3" title="Kafe va restoran: 25%"></div>
+                            <div class="pie-segment segment4" title="Tadbirlar va boshqalar: 10%"></div>
+                        </div>
+                        <div class="chart-legend">
+                            <div class="legend-item">
+                                <span class="legend-color bg-segment1"></span>
+                                <span>Chipta sotish (45%)</span>
+                            </div>
+                            <div class="legend-item">
+                                <span class="legend-color bg-segment2"></span>
+                                <span>Sovg'a do'konlari (20%)</span>
+                            </div>
+                            <div class="legend-item">
+                                <span class="legend-color bg-segment3"></span>
+                                <span>Kafe va restoran (25%)</span>
+                            </div>
+                            <div class="legend-item">
+                                <span class="legend-color bg-segment4"></span>
+                                <span>Tadbirlar va boshqalar (10%)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Xarajatlar -->
+        <section class="mb-5">
+            <h2 class="border-bottom pb-2 mb-4">Xarajatlar</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>
+                        Toshkent teleminorasining asosiy xarajatlari quyidagilarni o'z ichiga oladi:
+                    </p>
+                    <ul>
+                        <li>Xodimlar maoshi va ijtimoiy to'lovlar</li>
+                        <li>Binoni saqlash va ta'mirlash ishlari</li>
+                        <li>Kommunal xizmatlar (elektr, suv, isitish)</li>
+                        <li>Marketing va reklama xarajatlari</li>
+                        <li>Ma'muriy xarajatlar</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Foydalilik -->
+        <section class="mb-5">
+            <h2 class="border-bottom pb-2 mb-4">Foydalilik ko'rsatkichlari</h2>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-hover">
+                            <thead class="table-primary">
+                                <tr>
+                                    <th>Ko'rsatkich</th>
+                                    <th>2023 yil</th>
+                                    <th>2024 yil</th>
+                                    <th>O'zgarish</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Umumiy daromad</td>
+                                    <td>5,200,000,000 so'm</td>
+                                    <td>6,500,000,000 so'm</td>
+                                    <td class="text-success">+25%</td>
+                                </tr>
+                                <tr>
+                                    <td>Umumiy xarajatlar</td>
+                                    <td>3,800,000,000 so'm</td>
+                                    <td>4,200,000,000 so'm</td>
+                                    <td class="text-success">+10.5%</td>
+                                </tr>
+                                <tr>
+                                    <td>Sof foyda</td>
+                                    <td>1,400,000,000 so'm</td>
+                                    <td>2,300,000,000 so'm</td>
+                                    <td class="text-success">+64.3%</td>
+                                </tr>
+                                <tr>
+                                    <td>Foydalilik koeffitsienti</td>
+                                    <td>26.9%</td>
+                                    <td>35.4%</td>
+                                    <td class="text-success">+8.5%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-12">
+                    <div class="progress-metrics">
+                        <h4 class="text-center mb-4">Yillik foydalilik dinamikasi</h4>
+                        <div class="progress-container">
+                            <div class="progress-label">2023 yil</div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 26.9%;">26.9%</div>
+                            </div>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-label">2024 yil</div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 35.4%;">35.4%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p>© 2025 Toshkent teleminorasi. Barcha huquqlar himoyalangan.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
